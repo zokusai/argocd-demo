@@ -35,5 +35,5 @@ spec:
       - name: pre-sync-job
         image: busybox
         command: ['sh', '-c', 'echo PreSync Job running before Apache deployment']
-      restartPolicy: Neve
+      restartPolicy: Never
 
