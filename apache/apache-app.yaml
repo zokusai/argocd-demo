@@ -21,7 +21,7 @@ spec:  #Contiene la configuración principal del Deployment
         ports:
         - containerPort: 80
         command: ["/bin/sh", "-c", "echo 'ServerName localhost' >> /usr/local/apache2/conf/httpd.conf && httpd-foreground"] 
-
+---
 # Aquí comienza el Sync Hook (PreSync) que se ejecutará antes del despliegue
 apiVersion: batch/v1
 kind: Job
